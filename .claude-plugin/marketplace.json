@@ -11,7 +11,7 @@
       "name": "claude-audio-notify",
       "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work",
       "version": "1.0.0",
-      "source": ".",
+      "source": "./plugins/claude-audio-notify",
       "category": "utilities"
     }
   ]
