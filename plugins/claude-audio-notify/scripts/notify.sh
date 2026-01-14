@@ -192,7 +192,7 @@ speak() {
     elif command -v espeak &>/dev/null; then
         espeak "$message" &
     elif command -v spd-say &>/dev/null; then
-        spd-say "$message" &
+        spd-say -p $(get_config "tts_pitch" "0") "$message" &
     elif command -v festival &>/dev/null; then
         echo "$message" | festival --tts &
     else
