@@ -1,10 +1,18 @@
 {
+  "name": "mohd-azaan-claude-audio-notify",
   "version": "1.0.0",
+  "owner": {
+    "name": "mohd-azaan",
+    "url": "https://github.com/mohd-azaan"
+  },
   "plugins": [
     {
       "name": "claude-audio-notify",
       "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work",
-      "source": ".."
+      "source": {
+        "type": "local",
+        "path": ".."
+      }
     }
   ]
 }
