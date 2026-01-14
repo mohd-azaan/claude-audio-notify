@@ -1,0 +1,9 @@
+{
+  "name": "claude-audio-notify",
+  "version": "1.0.0",
+  "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work",
+  "author": {
+    "name": "mohd-azaan"
+  },
+  "license": "MIT"
+}
