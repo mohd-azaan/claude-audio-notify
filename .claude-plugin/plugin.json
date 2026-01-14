@@ -1,0 +1,11 @@
+{
+  "name": "claude-audio-notify",
+  "version": "1.0.0",
+  "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work. Supports custom sounds, TTS, and filtering.",
+  "author": {
+    "name": "Mohammed",
+    "url": "https://github.com/your-username"
+  },
+  "license": "MIT",
+  "keywords": ["notifications", "audio", "sounds", "tts", "hooks"]
+}

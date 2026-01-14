@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "cooldown": 2,
+  
+  "events": {
+    "stop": {
+      "enabled": true,
+      "min_duration": 3,
+      "tts": false
+    },
+    "notification": {
+      "enabled": true,
+      "tts": false
+    },
+    "subagent": {
+      "enabled": true,
+      "tts": false
+    },
+    "session_start": {
+      "enabled": false
+    }
+  }
+}

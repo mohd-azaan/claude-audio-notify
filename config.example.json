@@ -1,0 +1,35 @@
+{
+  "_comment": "Claude Audio Notify Configuration",
+  "_location": "Copy to ~/.config/claude-audio-notify/config.json",
+  
+  "enabled": true,
+  "cooldown": 2,
+  
+  "events": {
+    "stop": {
+      "enabled": true,
+      "sound": "~/sounds/complete.ogg",
+      "min_duration": 5,
+      "tts": false,
+      "tts_message": "Task complete"
+    },
+    "notification": {
+      "enabled": true,
+      "sound": "~/sounds/attention.ogg",
+      "tts": true,
+      "tts_message": "Claude needs your input"
+    },
+    "subagent": {
+      "enabled": true,
+      "sound": "~/sounds/subagent.ogg",
+      "tts": false,
+      "tts_message": "Subagent finished"
+    },
+    "session_start": {
+      "enabled": false,
+      "sound": "~/sounds/startup.ogg",
+      "tts": false,
+      "tts_message": "Claude session started"
+    }
+  }
+}
