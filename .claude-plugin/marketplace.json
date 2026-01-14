@@ -1,18 +1,18 @@
 {
-  "name": "mohd-azaan-claude-audio-notify",
-  "version": "1.0.0",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-audio-notify-marketplace",
+  "description": "Audio notifications for Claude Code",
   "owner": {
     "name": "mohd-azaan",
-    "url": "https://github.com/mohd-azaan"
+    "email": "mohd-azaan@users.noreply.github.com"
   },
   "plugins": [
     {
       "name": "claude-audio-notify",
       "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work",
-      "source": {
-        "type": "local",
-        "path": ".."
-      }
+      "version": "1.0.0",
+      "source": ".",
+      "category": "utilities"
     }
   ]
 }
