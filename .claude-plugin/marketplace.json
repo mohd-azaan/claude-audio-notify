@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "claude-audio-notify",
+      "description": "Audio notifications when Claude Code completes tasks, needs input, or finishes subagent work",
+      "source": ".."
+    }
+  ]
+}
